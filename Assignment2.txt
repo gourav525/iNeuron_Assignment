@@ -1,0 +1,47 @@
+What does the dollar($) sign do?
+	A dollar sign can denote a currency format, 
+	also it is used indicating absolute cell references in formulas.
+	
+How to Change the Reference from Relative to Absolute (or Mixed)?
+To change the reference from relative to absolute, you need to add the dollar sign before the column notation and the row number.
+For example, A1 is a relative cell reference, and it would become absolute when you make it $A$1.
+If you only have a couple of references to change, you may find it easy to change these references manually. So you can go to the formula bar and edit the formula (or select the cell, press F2, and then change it).
+However, a faster way to do this is by using the keyboard shortcut – F4.
+When you select a cell reference (in the formula bar or in the cell in edit mode) and press F4, it changes the reference.
+Suppose you have the reference =A1 in a cell.
+Here is what happens when you select the reference and press the F4 key.
+Press F4 key once: The cell reference changes from A1 to $A$1 (becomes ‘absolute’ from ‘relative’).
+Press F4 key two times: The cell reference changes from A1 to A$1 (changes to mixed reference where the row is locked).
+Press F4 key three times: The cell reference changes from A1 to $A1 (changes to mixed reference where the column is locked).
+Press F4 key four times: The cell reference becomes A1 again.
+
+Explain the order of operations in excel?
+When evaluating a formula, Excel follows a standard math protocol called "order of operations". 
+Excel's order of operation follows the below order:
+     Parentheses, 
+	 Exponents, 
+	 Multiplication, 
+	 Division, 
+	 Addition, 
+	 Subtraction
+	 
+What, according to you, are the top 5 functions in excel and write a basic syntax for any of two ?
+		1. SUM Function : “=SUM” (number1, number2, etc.)
+		2. Text function is a useful tool that helps convert a date (or number) into a text string in a particular format “=TEXT” (value, format_text).
+		3. The VLookup formula is “=VLOOKUP” (lookup_value, table_array, col_index_num, *range_lookup*).
+           “lookup_value” is the data you want to find.
+           “table_array” is the data column where you want to limit your search.
+           “col_index_num” is the column number within the table that you want to return a value from.
+           “range_lookup” is an optional argument that allows you to search for the exact match of your lookup value without sorting the table.
+		4.The average function is an extremely useful tool for getting the average value in a range of cells. “AVERAGE” (number1, number2, etc.)
+		5. The Concatenate function is used to concatenate various text together “CONCATENATE” (text1, [text2…text_n]).
+		
+When would you use the subtotal function?
+The SUBTOTAL function is used when you display a Total row in an Excel Table.
+
+What is the syntax of the vlookup function? Explain the terms in it?
+The VLookup formula is “=VLOOKUP” (lookup_value, table_array, col_index_num, *range_lookup*).
+           “lookup_value” is the data you want to find.
+           “table_array” is the data column where you want to limit your search.
+           “col_index_num” is the column number within the table that you want to return a value from.
+           “range_lookup” is an optional argument that allows you to search for the exact match of your lookup value without sorting the table.
